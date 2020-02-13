@@ -1,0 +1,23 @@
+{
+  "<alert-name>": {
+    "email": "<email-address>",
+    "subreddits": [
+      "<subreddit-1>",
+      "<subreddit-2>",
+             .
+             .
+             .
+      "<subreddit-n>",
+    ],
+    "keywords": [
+      "<keyword-1>",
+      "<keyword-2>",
+            .
+            .
+            .
+      "<keyword-n>",
+    ]
+  },
+  ... // more alerts
+}
+
