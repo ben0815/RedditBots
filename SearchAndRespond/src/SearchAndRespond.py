@@ -9,7 +9,7 @@ import threading
 
 
 # Initialize reddit object with .ini file.
-reddit = praw.Reddit('Authentication')
+reddit = praw.Reddit('SearchAndRespond')
 
 connection = sqlite3.connect('comment_cache.db')
 cursor = connection.cursor()

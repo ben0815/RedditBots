@@ -12,7 +12,7 @@ from os.path import isfile, join
 
 
 # Initialize reddit object with .ini file.
-reddit = praw.Reddit('Authentication')
+reddit = praw.Reddit('RandomImagePoster')
 
 # Cache image files so that we don't repost the same image.
 # This cache is cleared every x days. x is provided in the input.json file.

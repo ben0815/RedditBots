@@ -5,7 +5,7 @@ import json
 
 
 # Initialize reddit object with .ini file.
-reddit = praw.Reddit('Authentication')
+reddit = praw.Reddit('Alert')
 
 def main():
     print("Successfully logged into Reddit with username ", reddit.user.me(),
@@ -16,7 +16,7 @@ def main():
 
     alert = configuration["test-alert"]
     email = alert["email"]
-    subbreddits = alert["subreddits"]
+    subreddits = alert["subreddits"]
     keywords = alert["keywords"]
 
     print(email)
