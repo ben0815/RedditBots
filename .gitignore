@@ -1,3 +1,5 @@
 *.swp
 *.db
 *.db-journal
+token.pickle
+credentials.json
